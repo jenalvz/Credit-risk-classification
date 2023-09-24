@@ -18,7 +18,9 @@ The purpose of this analysis is to evaluate data on potential borrowers and thei
 The 'value_counts' feature was used to count the number of borrowers who were low- vs. high-risk. The results are below:
 * 0 (low-risk) n = 78,036
 * 1 (high-risk) n = 2,500
-These values were split into training and testing datasets by usingn the 'train_test_split' module from sklearn. Both of these sets were then used to build a Logistic Regression Model (#1).
+
+  
+- These values were split into training and testing datasets by usingn the 'train_test_split' module from sklearn. Both of these sets were then used to build a Logistic Regression Model (#1).
 The training data was then resampled to predict a logistic regression model, using the 'RandomOverSampler' moduel from imblearn. This ensured that the model had an equally-splot number of data points, and was used to build a second Logistic Regression Model (#2).
 
 
