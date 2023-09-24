@@ -1,8 +1,5 @@
 # Credit-risk-classification
 Mod 20 Challenge - Supervised Learning
-
-# Credit-risk-classification
-Mod 20 Challenge - Supervised Learning
 ----
 
 # Credit Risk Analysis Report
